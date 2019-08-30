@@ -1,0 +1,25 @@
+{
+  "name": "import-sort-style-express",
+  "version": "0.1.0",
+  "description": "An import-sort style that groups and sorts by module respecting React modules with relative aliases support.",
+  "main": "lib/index.js",
+  "author": "Eivs <eivs@live.com> (https://github.com/eivs)",
+  "repository": "Eivs/import-sort-style-express",
+  "scripts": {
+    "format": "prettier --write src/*.js",
+    "build": "babel src --out-dir lib",
+    "build:watch": "babel src --watch --out-dir lib"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
